@@ -1,3 +1,4 @@
+from __future__ import print_function
 import Logger
 print("This text will be logged.")
 
@@ -9,3 +10,4 @@ sys.stdout.move_file('example_logdir')
 print("From now on, the log file is named", sys.stdout.filename)
 
 print("Have fun using the python std logger!")
+
